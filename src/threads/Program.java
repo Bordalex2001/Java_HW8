@@ -12,7 +12,7 @@ public class Program {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		int[] arr = new int[arrSize];
 		for (int i = 0; i < arrSize; i++) {
-			arr[i] += i + 1;
+			arr[i] = i + 1;
 		}
 
 		int chunk = arrSize / numTasks;
